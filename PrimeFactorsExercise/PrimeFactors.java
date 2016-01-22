@@ -12,12 +12,17 @@ public class PrimeFactors {
     public static void main(String[] args) {
         System.out.println("Let's print the prime factors of a number:");
         PrimeFactors factors = new PrimeFactors();
-        factors.generateList(6);
+        factors.generateList(40);
     }
 
     private List<Integer> generateList(int n) {
         ArrayList<Integer> primeList = new ArrayList<Integer>();
         System.out.println("The Prime List of " + n + ":");
+        getList(primeList, n);
+        return primeList;
+    }
+
+    private List<Integer> getList(ArrayList<Integer> primeList, int n) {
         for (int i = 2; i <= n; i++) {
             while (n % i == 0) {
                 primeList.add(i);
@@ -27,5 +32,5 @@ public class PrimeFactors {
         System.out.println(primeList);
         return primeList;
     }
-
-} 
+   
+}
