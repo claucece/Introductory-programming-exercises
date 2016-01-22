@@ -1,0 +1,4 @@
+xxx
+# ignore class
+*.class 
+*.DS_Store
