@@ -22,7 +22,7 @@ public class PrimeFactors {
         return primeList;
     }
 
-    private List<Integer> getList(ArrayList<Integer> primeList, int n) {
+    public List<Integer> getList(ArrayList<Integer> primeList, int n) {
         for (int i = 2; i <= n; i++) {
             while (n % i == 0) {
                 primeList.add(i);
