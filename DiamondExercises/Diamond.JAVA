@@ -9,7 +9,7 @@ public class Diamond {
         Diamond gem = new Diamond();
         gem.setFirst(4);
     }
-
+    
     private void setFirst(int height) {
         int base = (2 * height) - 1;
         for (int i = 0; i < height; i++) {
