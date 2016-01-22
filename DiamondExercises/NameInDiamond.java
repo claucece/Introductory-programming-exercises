@@ -42,5 +42,6 @@ public class NameInDiamond {
         for (int k = 0; k < asterisk; k++)
             System.out.print("*");
     }
-
+    
 }
+

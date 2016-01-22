@@ -21,7 +21,7 @@ public class Diamond {
         int minus = height - 1;
         setSecond(minus, base);
     }
-  
+    
     private void setSecond(int minus, int base) {
         for (int i = minus; i > 0; i--) {
             int asterisk = (2 * i) - 1;
@@ -30,12 +30,15 @@ public class Diamond {
             System.out.println();
         }
     }
- 
+    
     private void getFunctionality(int space, int asterisk) {
         for (int j = 0; j < space; j++)
             System.out.print(" ");
         for (int k = 0; k < asterisk; k++)
             System.out.print("*");
     }
+
 }
+
+
 
