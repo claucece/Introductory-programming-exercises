@@ -14,9 +14,11 @@ public class Game {
         Game count = new Game();
         count.fizzBuzz();
     }
+ 
+    private final static int SIZE = 100;
 
     private void fizzBuzz() {
-       for (int i = 1; i <= 100; i++) {
+       for (int i = 1; i <= SIZE; i++) {
            if (i % 3 == 0 && i % 5 == 0) {
                System.out.println("Fizz Buzz");
            } else if (i % 5 == 0) {
