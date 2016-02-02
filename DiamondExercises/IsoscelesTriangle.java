@@ -10,7 +10,7 @@ public class IsoscelesTriangle {
         isosceles.setTriangle(5);
     }
 
-    private void setTriangle(int height) {
+    public void setTriangle(int height) {
        int base = (2 * height) - 1;
        for (int i = 0; i < height; i++) {
            int asterisk = (2 * i) + 1;
@@ -20,7 +20,7 @@ public class IsoscelesTriangle {
        }  
     }
  
-    private void getTriangle(int space, int asterisk) {
+    public void getTriangle(int space, int asterisk) {
       for (int j = 0; j < space; j++)
            System.out.print(" ");
       for (int k = 0; k < asterisk; k++)
